@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local dataset storage (Kagglehub default download path cache)
+.kagglehub/
+artifacts/
+data/
+
+# Virtual environments
+venv/
+.venv/
+.env
