@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import os
-from data_loader.py import download_medical_dataset
+from data_loader import download_medical_dataset
 from model import MedicalOCRModel
 
 # Set page configuration
