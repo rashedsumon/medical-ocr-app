@@ -23,7 +23,7 @@ with st.spinner("Initializing AI Models and verifying Kaggle environments..."):
     dataset_path, model = initialize_system()
 
 if dataset_path:
-    st.sidebar.success("✅ Kaggle Dataset Connected")
+    
 else:
     st.sidebar.warning("⚠️ Running in Standalone Mode (Kaggle Dataset Unreachable)")
 
