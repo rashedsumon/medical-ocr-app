@@ -8,7 +8,7 @@ from model import MedicalOCRModel
 st.set_page_config(page_title="Medical OCR Digitizer", page_icon="🏥", layout="centered")
 
 # App header
-st.title("🏥 Noisy Medical Document OCR Engine")
+st.title("🏥 Noisy Medical Document OCR Detection")
 st.write("Convert noisy, blurry, or scanned physical medical documents into clean, digital text.")
 
 # 1. Trigger automated dataset download/verification in the background
