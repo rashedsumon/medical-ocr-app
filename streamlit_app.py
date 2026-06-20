@@ -25,8 +25,7 @@ with st.spinner("Initializing AI Models and verifying Kaggle environments..."):
 if dataset_path:
     
 else:
-    st.sidebar.warning("⚠️ Running in Standalone Mode (Kaggle Dataset Unreachable)")
-
+    
 # 2. File Upload UI Section
 st.subheader("Upload Medical Document")
 uploaded_file = st.file_uploader("Choose a scanned image (JPG, PNG, JPEG)...", type=["jpg", "jpeg", "png"])
