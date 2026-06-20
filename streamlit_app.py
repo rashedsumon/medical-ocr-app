@@ -22,9 +22,7 @@ def initialize_system():
 with st.spinner("Initializing AI Models and verifying Kaggle environments..."):
     dataset_path, model = initialize_system()
 
-if dataset_path:
-    
-else:
+
     
 # 2. File Upload UI Section
 st.subheader("Upload Medical Document")
